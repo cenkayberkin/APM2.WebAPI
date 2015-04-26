@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APM2.WebAPI", "APM2.WebAPI\APM2.WebAPI.csproj", "{7ADCF7C9-7ECB-486F-87CB-9F7D14D1E865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APM2.Client", "APM2.Client\APM2.Client.csproj", "{956043E5-E13B-499D-8DF5-4731478D32EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ADCF7C9-7ECB-486F-87CB-9F7D14D1E865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADCF7C9-7ECB-486F-87CB-9F7D14D1E865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADCF7C9-7ECB-486F-87CB-9F7D14D1E865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADCF7C9-7ECB-486F-87CB-9F7D14D1E865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956043E5-E13B-499D-8DF5-4731478D32EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956043E5-E13B-499D-8DF5-4731478D32EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956043E5-E13B-499D-8DF5-4731478D32EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956043E5-E13B-499D-8DF5-4731478D32EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
