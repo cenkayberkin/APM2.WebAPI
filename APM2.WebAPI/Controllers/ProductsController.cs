@@ -6,12 +6,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 
 
 namespace APM2.WebAPI.Controllers
 {
-   
+    [EnableCors("*","*","*")]
     public class ProductsController : ApiController
     {
 
@@ -20,6 +21,13 @@ namespace APM2.WebAPI.Controllers
         {
             var repo = new ProductRepository();
             return repo.Retrieve();
+        }
+
+        public IEnumerable<Product> Get(string search)
+        {
+            var repo = new ProductRepository();
+            var products = repo.Retrieve();
+            return products.Where(a => a.ProductCode.Contains(search));
         }
 
         // GET: api/Products/5
